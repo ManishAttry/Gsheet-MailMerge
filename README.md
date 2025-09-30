@@ -13,7 +13,9 @@ Features:
 ---
 
 ## Demo screenshot
-*(Add your screenshots to the repo and link them here. Example: `/assets/ui-screenshot.png`)*
+![ui-screenshot](https://github.com/user-attachments/assets/aa26be78-cc92-41a0-9bd5-e2bc98a594d5)
+
+
 
 ---
 
@@ -33,9 +35,13 @@ Features:
 The sheet **must** have a header row (Row 1). Minimum required columns (case sensitive by default in script):
 
 - `EMAIL` — recipient email address. Can contain multiple comma-separated recipients.
+- `GENDER` — Recommend to use `Sir` or `Ma'am` only.
+- `COMPANY` — You can use any Name.
 - `SUBJECT` — optional: per-row subject. If empty, the draft's subject is used.
 - `DRAFT DATE` — status column written by the script (shows `Draft: <date>` or `Sent: <date>` or errors).
 
 Any additional columns can be used as merge placeholders in your Gmail draft body using `{{COLUMN_NAME}}`.
 
 **Example header row**:
+![GoogleSheet-screenshot](https://github.com/user-attachments/assets/497694d1-0e30-4fe1-bd5f-d3813b9492e3)
+
